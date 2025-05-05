@@ -14,4 +14,4 @@ Welcome to the **Ratel Framework Documentation** project. This repository provid
 - **Server Initialization**: bootstrapping your application in `main.dart`, loading environment variables, database configuration, and handler registration.
 - **JWT Authentication**: enabling token-based protection with minimal setup and using the built-in JWT library.
 
-You are free to adapt this structure to your own needs. To explore the full documentation, visit the //.
+You are free to adapt this structure to your own needs. To explore the full documentation, visit the [Documentation](https://ratel-dart.github.io/Documentation/).
