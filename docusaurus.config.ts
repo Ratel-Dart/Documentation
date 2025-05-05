@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://ratel-dart.github.io/',
-  baseUrl: '/Documentation  ',
+  baseUrl: '/Documentation',
   projectName: 'Documentation',
   trailingSlash: false,
   organizationName: 'DanielBrisch',
