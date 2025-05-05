@@ -1,0 +1,59 @@
+/* ==============================
+   Dark-only overrides (sem azul)
+   ============================== */
+:root[data-theme='dark'] {
+  /* ─── Cores de fundo/texto ─── */
+  --ifm-page-background-color:            #000000; /* fundo da página */
+  --ifm-font-base-color:                  #ffffff; /* cor base do texto */
+
+  /* ─── Navbar ─── */
+  --ifm-navbar-background-color:          #000000; /* fundo da navbar */
+  --ifm-navbar-link-color:                #ffffff; /* links na navbar */
+  --ifm-navbar-link-hover-color:          #ff0000; /* link hover */
+  --ifm-navbar-item-active-background-color: #222222; /* item ativo */
+
+  /* ─── Footer ─── */
+  --ifm-footer-background-color:          #000000; /* fundo do footer */
+  --ifm-footer-link-color:                #ffffff; /* links no footer */
+  --ifm-footer-link-hover-color:          #ff0000; /* hover link footer */
+
+  /* ─── Links gerais ─── */
+  --ifm-link-color:                       #ffffff; /* cor de todos os <a> */
+  --ifm-link-hover-color:                 #ff0000; /* hover em todos os <a> */
+
+  /* ─── Primary (botões, destaques, badges…) ─── */
+  --ifm-color-primary:                    #ffffff;
+  --ifm-color-primary-dark:               #e0e0e0;
+  --ifm-color-primary-darker:             #c0c0c0;
+  --ifm-color-primary-darkest:            #a0a0a0;
+  --ifm-color-primary-light:              #ffffff;
+  --ifm-color-primary-lighter:            #ffffff;
+  --ifm-color-primary-lightest:           #ffffff;
+
+  /* ─── Sidebar (docs) ─── */
+  --ifm-sidebar-background-color:         #000000; /* fundo da sidebar */
+  --ifm-sidebar-link-active-color:        #ffffff; /* link ativo */
+  --ifm-sidebar-item-active-background-color: #222222; /* fundo item ativo */
+
+  --docusaurus-highlighted-code-line-bg:   rgba(255, 255, 255, 0.1); /* linha destacada */
+}
+
+.navbar,
+.navbar__items .navbar__item a,
+.navbar__toggle {
+  background-color: var(--ifm-navbar-background-color) !important;
+  color: var(--ifm-navbar-link-color) !important;
+}
+.navbar__items .navbar__item a:hover,
+.navbar__toggle:hover,
+.footer a:hover,
+.footer a:focus {
+  color: #ff0000 !important;
+}
+
+.footer,
+.footer a,
+.footer p {
+  background-color: var(--ifm-footer-background-color) !important;
+  color: var(--ifm-footer-link-color) !important;
+}
